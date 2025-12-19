@@ -3266,3 +3266,11 @@ if __name__ == "__main__":
         logger.error(f"Bot error: {e}")
         print(f"❌ Bot connection failed: {e}")
         sys.exit(1)
+# ===================== SECURITY UPDATE =====================
+# Docker Container Isolation + Sandboxing (Per User)
+import subprocess
+import uuid
+
+def ensure_docker_image():
+    subprocess.run(
+        ["docker", "pull", "python:3.11]()
