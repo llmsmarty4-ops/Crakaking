@@ -3273,4 +3273,4 @@ import uuid
 
 def ensure_docker_image():
     subprocess.run(
-        ["docker", "pull", "python:3.11]
+        ["docker", "pull", "python:3.11"]()
